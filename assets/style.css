@@ -78,13 +78,36 @@ p {
 
 #main-blog {
     flex: 3 0;
-    margin-left: 5%;
     margin-right: 2.5%;
-
+    margin-left: 5%;
 }
 
 #side-bar {
     flex: 1 0;
     margin-left: 2.5%;
     margin-right: 5%;
+}
+
+#contact {
+    width: 90%;
+    height: 425px;
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    .card {
+      flex-direction: column;
+    }
+
+    #main-blog {
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    
+    #side-bar {
+        margin-left: 5%;
+        margin-right: 5%;
+
 }
